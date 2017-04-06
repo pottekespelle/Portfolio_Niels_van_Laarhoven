@@ -2,20 +2,13 @@
 <html>
 <head>
 	<title>scrolldown site</title>
-	<link rel="stylesheet" type="text/css" href="css/Style.css">
 	<link rel="stylesheet" type="text/css" href="css/HeaderStyle.css">
+	<link rel="stylesheet" type="text/css" href="css/Style.css">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0;">
 </head>
 <body>
 <div class="container">
-	<div id="top-nav" class="nav">
-		<div class="top">
-			<div class="wrapper">
-				<a id="DitbenikLink" href="DitBenIk.php">Dit ben ik!</a>
-				<a id="DitbenikLink" href="index.php">Projecten!</a>
-			</div>
-		</div>
-	</div>
+	<?php include"inc/header.php"; ?>
 
 	<div class="Shows" id="myDiv">
 			
