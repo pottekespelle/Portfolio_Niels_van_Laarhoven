@@ -2,6 +2,7 @@ body{
 	/*background-image: url("/../img/ubuntuWallpaper.png");*/
 	background-color: #00c7ff;
 	margin: 0 auto;
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 ::-webkit-scrollbar {
