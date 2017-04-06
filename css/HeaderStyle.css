@@ -1,0 +1,75 @@
+body{
+	/*background-image: url("/../img/ubuntuWallpaper.png");*/
+	background-color: #00c7ff;
+	margin: 0 auto;
+}
+
+.container{
+		/*margin-left: -10px;*/
+		padding: 0px;
+		width: 100%;
+}
+
+.nav{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	/*z-index: -1;*/
+	position: fixed;
+}
+
+@media screen and (max-width: 480px) {
+	.container{
+		margin-top: -10px;
+		margin-left: -10px;
+		padding: 0px;
+		width: 103vw;
+	}
+
+	.nav{
+	width: 105%;
+}
+}
+
+.top{
+	height: 100px;
+	width: 100%;
+	position: relative;
+	z-index: 50;
+	background: #FAFEFF;
+    box-shadow: 0px 15px 50px 0px rgba(69,69,69,0.3);
+}
+
+.wrapper{
+	height: 100%;
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 480px) {
+		.wrapper{
+	    width: 100%;
+	}
+}
+
+#DitbenikLink{
+	margin: 0 auto;
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+	#DitbenikLink{
+	height: 50%;
+}
+}
+
+#DitbenikLink:hover{
+	color: orange;
+	animation: 10s;
+}

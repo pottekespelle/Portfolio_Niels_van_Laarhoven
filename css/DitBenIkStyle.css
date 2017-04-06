@@ -1,0 +1,46 @@
+#index{
+	margin-top: 100px;
+	z-index: 200;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	flex-direction: column;
+}
+
+#IndexText{
+	 margin-left: 20px;
+	 width: 90%;
+	 font-size: 20px;
+}
+
+#IndexSkills{
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+
+#tablediv{
+	display: flex;
+	justify-content: center;
+	align-content: flex-start;
+}
+
+#tablediv ul{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	width: 70%;
+}
+
+#tablediv ul li{
+	padding: 10px;
+	width: 100%;
+}
+
+#tablediv ul li img{
+	width: 100%;
+}
