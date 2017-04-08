@@ -1,3 +1,7 @@
+#DitBenIk{
+	color: #005F78;
+}
+
 .IndexContainer{
 	margin-top: -8px;
 	margin-bottom: -8px;
@@ -5,7 +9,7 @@
 	display: flex;
 	flex-direction: column;
 
-	background-color: #00c7ff;
+	background-color: #C0E0D6;
 
 	font-size: 40px;
 }
@@ -27,7 +31,7 @@
 }
 
 #IndexSkills{
-	margin-left: 10px;
+	margin: 30px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -49,17 +53,19 @@
 	width: 70%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 700px) {
 	#tablediv ul{
 	flex-direction: column;
-	align-content: center;
+	align-content: space-between;
 	width: 70%;
+	padding-right: 60px;
 }
 
 }
 #tablediv ul li{
 	padding: 10px;
 	width: 100%;
+	padding-right: 50px;
 }
 
 #tablediv ul li img{

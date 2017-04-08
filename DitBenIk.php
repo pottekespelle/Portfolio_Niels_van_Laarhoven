@@ -26,17 +26,16 @@
 			</div>
 
 			<div id="IndexSkills">
-				<h1>mijn skils</h1>
+				<h1>mijn skills</h1>
 
 					<div id="tablediv">
-					<br>
 						<ul>
-							<li><h2>php</h2><br><img src="img/php-logo.png"></li>
-							<li><h2>html</h2><br><img src="img/HTML_logo.png"></li>
-							<li><h2>css</h2><br><img src="img/css-logo.png"></li>
-							<li><h2>javascript</h2><br><img src="img/js-logo.png"></li>
-							<li><h2>cmd-git</h2><br><img src="img/git-logo.png"></li>
-							<li><h2>my-sql</h2><br><img src="img/mysql-logo.png"></li>
+							<li><img src="img/php-logo.png"></li>
+							<li><img src="img/HTML_logo.png"></li>
+							<li><img src="img/css-logo.png"></li>
+							<li><img src="img/js-logo.png"></li>
+							<li><img src="img/git-logo.png"></li>
+							<li><img src="img/mysql-logo.png"></li>
 						</ul>	
 					</div>
 				</div>

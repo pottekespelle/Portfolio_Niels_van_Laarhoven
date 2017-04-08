@@ -1,3 +1,7 @@
+#Projecten{
+	color: #005F78;
+}
+
 .Shows{
 	margin-top: -8px;
 	margin-bottom: -8px;
@@ -5,7 +9,7 @@
 	display: flex;
 	flex-direction: column;
 
-	background-color: #00c7ff;
+	background-color: #C0E0D6;
 
 	font-size: 40px;
 }
@@ -18,18 +22,19 @@
 	justify-content: flex-start;
 	flex-direction: column;
 
-	background-color: #00c7ff;
+	background-color: #C0E0D6;
 }
 
-.Info-1{
-	display: flex;
-	height: 80vh;
-	margin-top: 150px;
-	align-items: center;
-	justify-content: flex-start;
-	flex-direction: column;
+.knop{
+	margin-top: -35vh;
+	margin-left: 150vh;
+	z-index: 500;
+}
 
-	background-color: #00c7ff;
+.knop:hover{
+	transition: 0.3s;
+	color: #E54541;
+	cursor: pointer;
 }
 
 .Shows-2{
@@ -39,7 +44,7 @@
 	justify-content: flex-start;
 	flex-direction: column;
 
-	background-color: #0099c4;
+	background-color: #005F78;
 }
 
 .Shows-3{
@@ -49,34 +54,96 @@
 	align-items: center;
 	justify-content: flex-start;
 	flex-direction: column;
-	background-color: #00c7ff;
+	background-color: #C0E0D6;
 }
 
-@media screen and (max-width: 480px) {
+.Info-1{
+	display: flex;
+	height: 80vh;
+	margin-top: 150px;
+	align-content: center;
+	justify-content: flex-start;
+	flex-direction: column;
+
+	text-align: center;
+	background-color: #C0E0D6;
+}
+
+.Info-2{
+	display: flex;
+	height: 80vh;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+
+	text-align: center;
+	background-color: #005F78;
+}
+
+.Info-3{
+	display: flex;
+	height: 80vh;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+
+	text-align: center;
+	background-color: #C0E0D6;
+}
+
+.pressForInfo{
+	-ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+    font-size: 25px;
+	margin-top: -30vh;
+	margin-left: -150vh;
+	z-index: 500;
+}
+
+.Shows-1:hover .pressForInfo{
+	color: red;
+	transition: 0.5s;
+	font-size: 30px;
+}
+
+.Shows-2:hover .pressForInfo{
+	color: red;
+	transition: 0.5s;
+	font-size: 30px;
+}
+
+.Shows-3:hover .pressForInfo{
+	color: red;
+	transition: 0.5s;
+	font-size: 30px;
+}
+
+@media screen and (max-width: 700px) {
 	.Shows-1{
-		display: flex;
 		height: 40vh;
 		margin-top: 100px;
-		align-items: center;
-		justify-content: flex-start;
-		flex-direction: column;
 	}
 
 	.Shows-2{
-		display: flex;
 		height: 40vh;
-		align-items: center;
-		justify-content: flex-start;
-		flex-direction: column;
 	}
 
 	.Shows-3{
-		display: flex;
 		height: 40vh;
-		
-		align-items: center;
-		justify-content: flex-start;
-		flex-direction: column;
+	}
+
+	.Info-1{
+		height: 40vh;
+		margin-top: 100px;
+	}
+
+	.Info-2{
+		height: 40vh;
+	}
+
+	.Info-3{
+		height: 40vh;
 	}
 }
 
@@ -97,23 +164,24 @@
 	margin-top: 10px;
 }
 
-.Shows-1 a{
+.Shows-1 p{
 	margin-top: 10px;
 
 	color: black;
 	text-decoration: none;
 }
 
-.Shows-2 a{
+.Shows-2 p{
 	margin-top: 10px;
 
 	color: black;
 	text-decoration: none;
 }
 
-.Shows-3 a{
+.Shows-3 p{
 	margin-top: 10px;
 
 	color: black;
 	text-decoration: none;
 }
+

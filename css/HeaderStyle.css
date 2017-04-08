@@ -1,6 +1,6 @@
 body{
 	/*background-image: url("/../img/ubuntuWallpaper.png");*/
-	background-color: #00c7ff;
+	background-color: #C0E0D6;
 	margin: 0 auto;
 	font-family: Verdana, Geneva, sans-serif;
 }
@@ -22,7 +22,7 @@ body{
 	position: fixed;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 700px) {
 	.container{
 		margin-top: -10px;
 		margin-left: -10px;
@@ -54,14 +54,14 @@ body{
     justify-content: space-around;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 700px) {
 		.wrapper{
 	    width: 100%;
 		z-index: 5;
 	}
 }
 
-#DitbenikLink{
+.DitbenikLink{
 	margin: 0 auto;
 	font-size: 30px;
 	font-weight: bold;
@@ -69,13 +69,13 @@ body{
 	text-decoration: none;
 }
 
-@media screen and (max-width: 480px) {
-	#DitbenikLink{
+@media screen and (max-width: 700px) {
+	.DitbenikLink{
 	height: 50%;
 }
 }
 
-#DitbenikLink:hover{
-	color: orange;
+.DitbenikLink:hover{
+	color: #E54541;
 	animation: 10s;
 }
